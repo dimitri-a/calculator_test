@@ -9,9 +9,9 @@ test('test that calculator', () => {
     );
     let tree = component.toJSON();
     expect(tree).toMatchSnapshot();
-    console.log('component=',component.refs);
+   // console.log('component=',component.refs);
 
-    // Simulate click on button -> trigger sumCalc()
-    ReactTestUtils.Simulate.click(component.refs.button);
+    component.getInstance().calcSum(1,3);
+    expect(tree).toMatchSnapshot();
 
 });

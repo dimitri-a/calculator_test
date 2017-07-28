@@ -19,3 +19,23 @@ exports[`test that calculator 1`] = `
   0
 </div>
 `;
+
+exports[`test that calculator 2`] = `
+<div>
+  <input
+    placeholder="number 1"
+    type="text"
+  />
+  <input
+    placeholder="number 2"
+    type="text"
+  />
+  <button
+    onClick={[Function]}
+  >
+    sum
+  </button>
+  sum: 
+  0
+</div>
+`;
