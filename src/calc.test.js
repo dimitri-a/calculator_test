@@ -1,19 +1,17 @@
 import React from 'react';
-import Calc from './calculator.js'
 import renderer from 'react-test-renderer';
+import ReactTestUtils from 'react-dom/test-utils'
+import Calculator from "./calculator";
 
 test('test that calculator', () => {
     const component = renderer.create(
-        <Calc>hi there</Calc>
+        <Calculator></Calculator>
     );
     let tree = component.toJSON();
     expect(tree).toMatchSnapshot();
+    console.log('component=',component.refs);
 
-    console.log('tree.props.calcSum=',tree.props.calcSum);
-    // manually trigger the callback
-    tree.props.calcSum();
-
-    expect(tree).toMatchSnapshot();
-    
+    // Simulate click on button -> trigger sumCalc()
+    ReactTestUtils.Simulate.click(component.refs.button);
 
 });

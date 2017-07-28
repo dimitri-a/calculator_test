@@ -12,9 +12,10 @@ exports[`test that calculator 1`] = `
   />
   <button
     onClick={[Function]}
-  />
+  >
+    sum
+  </button>
   sum: 
   0
-  hi there
 </div>
 `;

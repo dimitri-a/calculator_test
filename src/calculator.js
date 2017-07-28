@@ -17,9 +17,10 @@ export default class Calculator extends Component {
         return (<div>
                 <input type="text" placeholder="number 1" ref="one"/>
                 <input type="text" placeholder="number 2" ref="two"/>
-                <button onClick={this.calcSum}></button>
+
+                <button ref="button" onClick={this.calcSum}>sum</button>
                 sum: {this.state.sum}
-                {this.props.children}
+
             </div>
         );
     }
