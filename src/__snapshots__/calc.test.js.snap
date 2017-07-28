@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`test that calculator 1`] = `
+exports[`test that calculator snapshot 1`] = `
 <div>
   <input
     placeholder="number 1"
@@ -11,27 +11,7 @@ exports[`test that calculator 1`] = `
     type="text"
   />
   <button
-    onClick={[Function]}
-  >
-    sum
-  </button>
-  sum: 
-  0
-</div>
-`;
-
-exports[`test that calculator 2`] = `
-<div>
-  <input
-    placeholder="number 1"
-    type="text"
-  />
-  <input
-    placeholder="number 2"
-    type="text"
-  />
-  <button
-    onClick={[Function]}
+    onClick={NaN}
   >
     sum
   </button>
