@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test mylink 1`] = `
+<a
+  className="normal"
+  href=""
+  onMouseEnter={[Function]}
+>
+  hier 
+  Facebook
+</a>
+`;
+
+exports[`test mylink 2`] = `
+<a
+  className="normal"
+  href=""
+  onMouseEnter={[Function]}
+>
+  hier 
+  Facebook
+</a>
+`;

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test that calculator 1`] = `
+<div>
+  <input
+    placeholder="number 1"
+    type="text"
+  />
+  <input
+    placeholder="number 2"
+    type="text"
+  />
+  <button
+    onClick={[Function]}
+  />
+  sum: 
+  0
+  hi there
+</div>
+`;
